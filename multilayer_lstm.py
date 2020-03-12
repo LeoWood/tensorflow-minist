@@ -4,6 +4,8 @@ import tensorflow as tf
 from tensorflow.contrib import rnn
 from tensorflow.examples.tutorials.mnist import input_data
 import ssl
+import os
+os.environ['CUDA_VISIBLE_DEVICES'] = '1'
 
 """
 用双层lstm来做手写数字识别

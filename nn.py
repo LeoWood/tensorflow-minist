@@ -12,6 +12,8 @@ import struct
 import random
 from sklearn.model_selection import train_test_split
 import tensorflow as tf
+import os
+os.environ['CUDA_VISIBLE_DEVICES'] = '1'
 
 
 class LoadData(object):
